@@ -39,7 +39,7 @@ Deep-Well AI is a high-performance backend service designed for the energy secto
 ## API Reference
 
 ### Unified Inference Engine
-The `predict/unified` endpoint acts as an Intelligent Router. It automatically identifies the analysis context (EOR vs. Lithology) based on the input schema.
+The `/api/v1/chat` endpoint acts as an Intelligent Router. It automatically identifies the analysis context (EOR vs. Lithology) based on the input schema.
 
 - **Endpoint:** `/api/v1/chat`
 - **Method:** `POST`
