@@ -13,7 +13,6 @@ Deep-Well AI is a high-performance backend service designed for the energy secto
 
 ### Prerequisites
 - Python 3.12+
-- Proxmox or local Linux environment (Recommended: Arch Linux or Ubuntu 22.04+)
 
 ### Deployment
 1. Clone the repository and navigate to the backend directory:
@@ -93,7 +92,7 @@ You can test the API directly from your terminal using the following command. Re
 
 ```bash
 curl -X 'POST' \
-  'http://localhost:8000/api/v1/predict/unified' \
+  'http://localhost:8000/api/v1/chat' \
   -H 'accept: application/json' \
   -H 'Content-Type: multipart/form-data' \
   -F 'file=@test_data.csv;type=text/csv' \
